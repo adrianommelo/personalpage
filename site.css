@@ -15,11 +15,13 @@ main h1 {
     color: #FFF;
     padding: 25px;
     border-bottom: 10px solid black;
+    font-size: 60px;
 }
 
 
 p {
     text-align: justify;
+    margin: 20px 0;
 }
 
 blockquote {
@@ -27,6 +29,7 @@ blockquote {
     width: 250px;
     border: 10px solid #C2CCCA;
     box-sizing: border-box;
+    margin: 20px 40px;
     /*
     border-bottom-color: #333;
     border-right-color: #FFF;
@@ -58,14 +61,32 @@ aside a {
 }
 
 blockquote, aside, footer {
-	padding: 20px;
+	padding: 20px 40px;
 }
 
 main div {
 	width: 750px;
 	margin: auto;
+	padding: 30px 0;
 }
 
 aside {
 	text-align: center;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+strong{
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+h2 {
+	font-size: 30px;
 }
