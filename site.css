@@ -45,6 +45,7 @@ p {
 
 main a {
     color: #851944;
+
 }
 
 .navegacao-site a {
@@ -138,6 +139,7 @@ cite {
 main {
 	float: left;
 	width: 85%;
+    padding-bottom: 80px;
 }
 
 .minha-foto, .navegacao-site {
@@ -156,4 +158,24 @@ aside {
 */
 .clearfix {
 	clear: both;
+}
+
+.minha-foto {
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+aside {
+    position: relative;
+    top: 300px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
 }
