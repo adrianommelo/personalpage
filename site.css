@@ -41,6 +41,11 @@ p {
 .rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 main a {
@@ -100,7 +105,7 @@ em {
     background-color: #E6E7E8;
 }
 
-.nav a {
+nav a {
     text-transform: lowercase;
 }
 
@@ -143,39 +148,25 @@ main {
 }
 
 .minha-foto, .navegacao-site {
-	width: 15%;
 	float: right;
 	box-sizing: border-box;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
-}
-
-/*
-aside {
-	clear: right;
 	
-}
-*/
-.clearfix {
-	clear: both;
 }
 
 .minha-foto {
-    width: 300px;
     position: absolute;
     top: 0;
     right: 0;
 }
 
-aside {
-    position: relative;
-    top: 300px;
+.navegacao-site {
+	position: relative;
+	top: 310px;
+	width: 15%;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
+.clearfix {
+	clear: both;
 }
